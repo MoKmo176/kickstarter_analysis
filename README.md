@@ -38,7 +38,7 @@ I used several Excel tools and functions to further segment and analyze the data
 
 ### Analysis of Outcomes Based on Goals
 
-	- New Sheet called Outcomes Based on Goals analysing a table with =COUNTIF and =IFERROR functions in Excel. The formula =COUNTIFS references data of Pledge Goal versus Outcomes and counts only if in the rows category(<1000, 1000-4999, 5000-9999,...). The Percentage of Success, Failed and Canceled campaigns is represented in the table and line graph. 
+	-  Outcomes Based on Goals created for analysing a table with =COUNTIF and =IFERROR functions in Excel. The formula =COUNTIFS references data of Pledge Goal versus Outcomes and counts only if in the rows category(<1000, 1000-4999, 5000-9999,...). The Percentage of Success, Failed and Canceled campaigns is represented in the table and line graph. 
 
 
 
@@ -49,12 +49,19 @@ The first challenge I encountered was with IFERROR and VLOOKUP, because the part
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-	1. In the Greater than 50000 row yields a higher Percentage Failed versus in the Less than 1000 row the Percentage Successful is higher. 
+	1. The peak for successful outcomes is May with 111 successful outcomes and June is the 2nd highest successful outcomes at 100. 
 
-	2. The lines in the graph [Outcomes Based on Goals](path/to/Outcomes_vs_Goals.png) intersect 3 times, we can determine where the peaks for Percentage Successful and Failed are based on various Goal amounts.
+	2. There are more succeesful Outcomes than there are Failed or Cancelled outcomes, therefore the Launch Date is not a useful derterminent for campaign success. 
+
 
 - What can you conclude about the Outcomes based on Goals?
+	
+	The lines in the graph [Outcomes Based on Goals](path/to/Outcomes_vs_Goals.png) intersect 3 times, we can determine where the peaks for Percentage Successful and Failed are based on various Goal amounts.
 
 - What are some limitations of this dataset?
 
+	The limitations may include no further financial data associated with the donations to further improve campaign budget allocations.  
+
 - What are some other possible tables and/or graphs that we could create?
+
+	A Table and Graph I would create would include average donation values by subcateogries, and dilineate a budget allocation analysis reccomendation. The data will give me a better picture of the most successful Subcategorys', we can further determine on the best performing margin-wise and decide where to allocate resources. 
