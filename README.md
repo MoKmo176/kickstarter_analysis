@@ -25,23 +25,23 @@ I used several Excel tools and functions to further segment and analyze the data
 
 ## Insert:Pivot Table & Newly Created Sheets: 
 	
-	- Pivot Table and Stacked Bar Chart created to analyze Category Statistics. The table and chart display the count of campaigns successful, failed, canceled or live with the Country filter set to "US", we can see which Parent Categories yielded values. ![Category Stats](https://github.com/MoKmo176/kickstarter_analysis/blob/49168dedb4b5750031ca7a24b48d36f95431af46/CategoryStats.png)
+- Pivot Table and Stacked Bar Chart created to analyze Category Statistics. The table and chart display the count of campaigns successful, failed, canceled or live with the Country filter set to "US", we can see which Parent Categories yielded values. ![Category Stats](https://github.com/MoKmo176/kickstarter_analysis/blob/49168dedb4b5750031ca7a24b48d36f95431af46/CategoryStats.png)
 
 
-	- Pivot Table and Line Graph created to visualize Theater Outcomes By Launch Date. The table and chart is a visualization of the Theater Outcomes, so we set a Parent Category filter to show only Outcomes from theater by launch month. ![Outcomes Based on Launch Date](https://github.com/MoKmo176/kickstarter_analysis/blob/49168dedb4b5750031ca7a24b48d36f95431af46/OutcomesBasedonDate.png) 
-	
+- Pivot Table and Line Graph created to visualize Theater Outcomes By Launch Date. The table and chart is a visualization of the Theater Outcomes, so we set a Parent Category filter to show only Outcomes from theater by launch month. ![Outcomes Based on Launch Date](https://github.com/MoKmo176/kickstarter_analysis/blob/49168dedb4b5750031ca7a24b48d36f95431af46/OutcomesBasedonDate.png) 
 
-	- Additional Table created to specifically view successful, live, and failed outcomes in the Subcategory "plays", and can further be filtered by country. 
+
+- Additional Table created to specifically view successful, live, and failed outcomes in the Subcategory "plays", and can further be filtered by country. 
 		- Additional Table created to =VLOOKUP blurbs about the top performing "plays" in the UK. (deleted from Kickstarter_challenge.xlsx for Zip file space for Push onto GitHub/MoKmo176/kickstarter_analysis repository).
 
 	
 ### Analysis of Outcomes Based on Launch Date
 
-	- The Pivot Table and Line Graph are created to visualize Theater Outcomes By Launch Date. The table and chart is a visualization of the Theater Outcomes, and I set a Parent Category filter to show only Outcomes from theater by launch month. Segmenting the data this way is useful, we can see that there are more Successful outcomes than Failed or Canceled in any given month of Launch Date. 
+- The Pivot Table and Line Graph are created to visualize Theater Outcomes By Launch Date. The table and chart is a visualization of the Theater Outcomes, and I set a Parent Category filter to show only Outcomes from theater by launch month. Segmenting the data this way is useful, we can see that there are more Successful outcomes than Failed or Canceled in any given month of Launch Date. 
 
 ### Analysis of Outcomes Based on Goals
 
-	-  Outcomes Based on Goals is created for analysing the relationship betweeen Goals versus Outcomes with =COUNTIF and =IFERROR functions in Excel. The formula =COUNTIFS references data of Pledge Goal versus Outcomes and counts only if in the rows category(<1000, 1000-4999, 5000-9999,...). The Percentage of Success, Failed and Canceled campaigns is represented in the table and line graph. The graph has 3 inflection points, as well as more Successful campaign outcomes within lower Goal ranges and more Failed campaign outcomes within higher Goal ranges. 
+-  Outcomes Based on Goals is created for analysing the relationship betweeen Goals versus Outcomes with =COUNTIF and =IFERROR functions in Excel. The formula =COUNTIFS references data of Pledge Goal versus Outcomes and counts only if in the rows category(<1000, 1000-4999, 5000-9999,...). The Percentage of Success, Failed and Canceled campaigns is represented in the table and line graph. The graph has 3 inflection points, as well as more Successful campaign outcomes within lower Goal ranges and more Failed campaign outcomes within higher Goal ranges. 
 
 
 
