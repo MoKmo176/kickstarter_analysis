@@ -34,11 +34,11 @@ I used several Excel tools and functions to further segment and analyze the data
 	
 ### Analysis of Outcomes Based on Launch Date
 
-	- Pivot Table and Line Graph to visualize Theater Outcomes By Launch Date. The table and chart is a visualization of the Theater Outcomes, so we set a Parent Category filter to show only Outcomes from theater by launch month. 
+	- The Pivot Table and Line Graph are created to visualize Theater Outcomes By Launch Date. The table and chart is a visualization of the Theater Outcomes, and I set a Parent Category filter to show only Outcomes from theater by launch month. Segmenting the data this way is useful, we can see that there are more Successful outcomes than Failed or Canceled in any given month of Launch Date. 
 
 ### Analysis of Outcomes Based on Goals
 
-	-  Outcomes Based on Goals created for analysing a table with =COUNTIF and =IFERROR functions in Excel. The formula =COUNTIFS references data of Pledge Goal versus Outcomes and counts only if in the rows category(<1000, 1000-4999, 5000-9999,...). The Percentage of Success, Failed and Canceled campaigns is represented in the table and line graph. 
+	-  Outcomes Based on Goals is created for analysing the relationship betweeen Goals versus Outcomes with =COUNTIF and =IFERROR functions in Excel. The formula =COUNTIFS references data of Pledge Goal versus Outcomes and counts only if in the rows category(<1000, 1000-4999, 5000-9999,...). The Percentage of Success, Failed and Canceled campaigns is represented in the table and line graph. The graph has 3 inflection points, as well as more Successful campaign outcomes within lower Goal ranges and more Failed campaign outcomes within higher Goal ranges. 
 
 
 
@@ -56,7 +56,7 @@ The first challenge I encountered was with IFERROR and VLOOKUP, because the part
 
 - What can you conclude about the Outcomes based on Goals?
 	
-	The lines in the graph [Outcomes Based on Goals](path/to/Outcomes_vs_Goals.png) intersect 3 times, we can determine where the peaks for Percentage Successful and Failed are based on various Goal amounts.
+	The lines in the graph [Outcomes Based on Goals](https://github.com/MoKmo176/kickstarter_analysis/commit/1490804d6bb6dab76b60a801d680b29c542778b4#r55190844)intersect 3 times, we can determine where the peaks for Percentage Successful and Failed are based on various Goal amounts.
 
 - What are some limitations of this dataset?
 
