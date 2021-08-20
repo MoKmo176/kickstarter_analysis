@@ -7,7 +7,8 @@ This analysis of the Kickstarter campaign is to dileniate patterns and discover 
 
 ## Analysis and Challenges
 
-![Kickstarter Formatting](MacintoshHD/Users/moezkhan/Desktop/Kickstarter_format.png)
+![Kickstarter Formatting](https://github.com/MoKmo176/kickstarter_analysis/blob/1a0ddcbe372eb3acca617f0496282e01758cdbe4/Kickstarter_format.png)
+
 ---
 
 I used several Excel tools and functions to further segment and analyze the dataset and reveal some positive corelations.  
