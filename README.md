@@ -25,9 +25,11 @@ I used several Excel tools and functions to further segment and analyze the data
 
 ## Insert:Pivot Table & Newly Created Sheets: 
 	
-	- Pivot Table and Stacked Bar Chart to analyze Category Statistics. The table and chart display the count of campaigns successful, failed, canceled or live with the Country filter set to "US", we can see which Parent Categories yielded values. 
+	- Pivot Table and Stacked Bar Chart created to analyze Category Statistics. The table and chart display the count of campaigns successful, failed, canceled or live with the Country filter set to "US", we can see which Parent Categories yielded values. ![Category Stats](https://github.com/MoKmo176/kickstarter_analysis/blob/49168dedb4b5750031ca7a24b48d36f95431af46/CategoryStats.png)
 
-	- Pivot Table and Line Graph to visualize Theater Outcomes By Launch Date. The table and chart is a visualization of the Theater Outcomes, so we set a Parent Category filter to show only Outcomes from theater by launch month. 
+
+	- Pivot Table and Line Graph created to visualize Theater Outcomes By Launch Date. The table and chart is a visualization of the Theater Outcomes, so we set a Parent Category filter to show only Outcomes from theater by launch month. ![Outcomes Based on Launch Date](https://github.com/MoKmo176/kickstarter_analysis/blob/49168dedb4b5750031ca7a24b48d36f95431af46/OutcomesBasedonDate.png) 
+	
 
 	- Additional Table created to specifically view successful, live, and failed outcomes in the Subcategory "plays", and can further be filtered by country. 
 		- Additional Table created to =VLOOKUP blurbs about the top performing "plays" in the UK. (deleted from Kickstarter_challenge.xlsx for Zip file space for Push onto GitHub/MoKmo176/kickstarter_analysis repository).
@@ -57,7 +59,7 @@ The first challenge I encountered was with IFERROR and VLOOKUP, because the part
 
 - What can you conclude about the Outcomes based on Goals?
 	
-	The lines in the graph [Outcomes Based on Goals](https://github.com/MoKmo176/kickstarter_analysis/commit/1490804d6bb6dab76b60a801d680b29c542778b4#r55190844)intersect 3 times, we can determine where the peaks for Percentage Successful and Failed are based on various Goal amounts.
+	The lines in the graph [Outcomes Based on Goals](https://github.com/MoKmo176/kickstarter_analysis/blob/49168dedb4b5750031ca7a24b48d36f95431af46/OutcomesVGoals.png)intersect 3 times, we can determine where the peaks for Percentage Successful and Failed are based on various Goal amounts.
 
 - What are some limitations of this dataset?
 
