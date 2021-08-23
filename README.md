@@ -3,7 +3,7 @@
 ## Overview of Kickstarter Analysis
 
 ### Purpose
-This analysis of the Kickstarter campaign is to dileniate patterns and discover positive correlations of Successful campaign performance.   Based on a variety of statistical and qualitative values, including Failed and Canceled outcomes or categorical data, we aim to design meaningful data-driven insights through visulations of the best performing segments of the crowdfunding campaign. The data segmentations in A Practical Analysis of Kickstarter Campaigns focuses on the following quantitative values: # of Backers, $ value of Pledged, and $ value of Goal. Furthermore, metrics such as Percent Funded & Average Donations are represented to further evaluate Successes within Categories and Subcategories. We can uilize the updated datasets with tables & charts to stand as crowdfunding benchmarks for future analysis.
+This analysis of the Kickstarter campaign is to dileniate patterns and discover positive correlations of Successful campaign performance.   Based on a variety of statistical and qualitative values, including Failed and Canceled outcomes or categorical data, we aim to design meaningful data-driven insights through visulations of the best performing segments of the crowdfunding campaign. The data segmentations in A Practical Analysis of Kickstarter Campaigns focuses on the following quantitative values: # of Backers, $ value of Pledged, and $ value of Goal. Furthermore, metrics such as Percent Funded & Average Donations are represented to further evaluate Successes within Categories and Subcategories. We can utilize the updated datasets with tables & charts to stand as crowdfunding benchmarks for future analysis.
 
 ## Analysis and Challenges
 
